@@ -628,7 +628,174 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ScottoKeebs:MCU_Nice_Nano_V2"
+		(symbol "lib-anura:Diode_SOD123"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_SOD123_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_SOD123_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib-anura:MCU_Nice_Nano_V2"
 			(pin_names
 				(offset 1.016)
 			)
@@ -651,7 +818,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
+			(property "Footprint" "anura:nice!nano_facedown"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -908,7 +1075,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -3.81 -8.89 270)
 					(length 2.5)
 					(name "1"
@@ -926,7 +1093,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -1.27 -8.89 270)
 					(length 2.5)
 					(name "2"
@@ -944,7 +1111,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 1.27 -8.89 270)
 					(length 2.5)
 					(name "7"
@@ -1181,26 +1348,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ScottoKeebs:Placeholder_Diode"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
+		(symbol "lib-anura:Nice!View"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "DS_{}"
+				(at 0 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Diode"
-				(at 0 -2.54 0)
+			(property "Value" "Nice!View"
+				(at 0 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1225,7 +1386,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1234,71 +1395,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Placeholder_Diode_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
+			(symbol "Nice!View_0_1"
+				(rectangle
+					(start -3.175 6.985)
+					(end 3.175 -6.985)
 					(stroke
 						(width 0)
 						(type default)
@@ -1308,11 +1408,11 @@
 					)
 				)
 			)
-			(symbol "Placeholder_Diode_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+			(symbol "Nice!View_1_1"
+				(pin input line
+					(at -6.985 5.08 0)
+					(length 3.81)
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1327,10 +1427,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+				(pin input line
+					(at -6.985 2.54 0)
+					(length 3.81)
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1345,155 +1445,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ScottoKeebs:Placeholder_Keyswitch"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 3.048 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Keyswitch"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Placeholder_Keyswitch_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
+				(pin power_in line
+					(at -6.985 0 0)
+					(length 3.81)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1501,17 +1463,35 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
+				(pin power_out line
+					(at -6.985 -2.54 0)
+					(length 3.81)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.985 -5.08 0)
+					(length 3.81)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1522,7 +1502,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
+		(symbol "lib-anura:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1672,7 +1652,181 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "lib-anura:SW_Push_45_Deg"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Keyswitch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45_Deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib-anura:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1680,8 +1834,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW-BAT-L-1"
-				(at 0 8.128 0)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1689,14 +1843,14 @@
 				)
 			)
 			(property "Value" "SW_SPDT"
-				(at 0 5.588 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "ScottoKeebs_Components:Switch_SSAL220100"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2472,160 +2626,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lib-chungus:Nice!View"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "DS_{}"
-				(at 0 9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Nice!View"
-				(at 0 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Nice!View_0_1"
-				(rectangle
-					(start -3.175 6.985)
-					(end 3.175 -6.985)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Nice!View_1_1"
-				(pin input line
-					(at -6.985 5.08 0)
-					(length 3.81)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.985 2.54 0)
-					(length 3.81)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.985 0 0)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -6.985 -2.54 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.985 -5.08 0)
-					(length 3.81)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4703,7 +4703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 168.275 60.325 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4835,7 +4835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 186.055 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4967,7 +4967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 224.155 85.725 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5054,7 +5054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 206.375 85.725 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5141,7 +5141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 239.395 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5208,7 +5208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 221.615 60.325 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5275,7 +5275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 203.835 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5342,7 +5342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 168.275 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5409,7 +5409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 188.595 66.675 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5561,7 +5561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 224.155 104.775 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5648,7 +5648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 241.935 85.725 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5800,7 +5800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:MCU_Nice_Nano_V2")
+		(lib_id "lib-anura:MCU_Nice_Nano_V2")
 		(at 52.07 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5943,7 +5943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 241.935 66.675 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6030,7 +6030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 188.595 47.625 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6269,7 +6269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "lib-anura:SW_Push")
 		(at 116.205 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6337,7 +6337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 206.375 47.625 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6494,7 +6494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 239.395 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6561,7 +6561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 224.155 47.625 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6648,7 +6648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 221.615 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6715,7 +6715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 170.815 47.625 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6802,7 +6802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 224.155 66.675 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6889,7 +6889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lib-chungus:Nice!View")
+		(lib_id "lib-anura:Nice!View")
 		(at 121.92 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6965,7 +6965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 241.935 104.775 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7052,7 +7052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 186.055 60.325 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7119,7 +7119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 239.395 60.325 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7186,7 +7186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 206.375 104.775 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7273,7 +7273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 186.055 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7340,7 +7340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 203.835 60.325 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7407,7 +7407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 241.935 47.625 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7559,7 +7559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 203.835 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7626,7 +7626,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 168.275 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7781,7 +7781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 239.395 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7848,7 +7848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 221.615 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7915,7 +7915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 206.375 66.675 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8002,7 +8002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "lib-anura:SW_Push_45_Deg")
 		(at 221.615 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8069,7 +8069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 188.595 85.725 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8156,7 +8156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "lib-anura:SW_SPDT")
 		(at 120.65 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8226,7 +8226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 170.815 85.725 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8443,7 +8443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "lib-anura:Diode_SOD123")
 		(at 170.815 66.675 90)
 		(unit 1)
 		(exclude_from_sim no)
