@@ -1,0 +1,8538 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2f4d8bfb-914e-4eb2-88ea-03268c6fd720")
+	(paper "A4")
+	(lib_symbols
+		(symbol "2xBatteryPad_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PAD"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2xBatteryPad_1_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2xBatteryPad_1_2_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CombinedChocEncoder_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CombChocEncoder"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "chungus:Hotswap_Choc_V1_Combined_EVQWGD001"
+				(at 0.254 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 Part Symbol for shared footprint Choc, Scroll Encoder"
+				(at 0 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CombinedChocEncoder_1_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -3.556 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -3.556 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -3.556 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -3.556 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.778) (xy -0.254 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.0127 -2.7305)
+					(mid -2.7305 0)
+					(end -0.0127 2.7305)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.778) (xy 0.254 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.048) (xy -0.254 2.794) (xy 0.381 2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -3.048) (xy -0.254 -2.794) (xy 0.381 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "EVQWGD001"
+					(at 0.254 -6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CombinedChocEncoder_1_2_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "chocv1 push switch"
+					(at 0 -6.096 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:MCU_Nice_Nano_V2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Nice_Nano_V2"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -63.5 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCU_Nice_Nano_V2_0_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCU_Nice_Nano_V2_1_1"
+				(pin input line
+					(at -15.24 13.97 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 11.43 0)
+					(length 5.08)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -1.27 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -11.43 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -13.97 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -8.89 270)
+					(length 2.5)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -8.89 270)
+					(length 2.5)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 270)
+					(length 2.5)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 13.97 180)
+					(length 5.08)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 6.35 180)
+					(length 5.08)
+					(name "3.3v"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -8.89 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -11.43 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -13.97 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Diode"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Diode_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Placeholder_Diode_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Keyswitch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Keyswitch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Keyswitch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW-BAT-L-1"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_Components:Switch_SSAL220100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib-chungus:2xBatteryPad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PAD"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2xBatteryPad_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2xBatteryPad_2_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib-chungus:CombinedChocEncoder"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CombChocEncoder"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "chungus:Hotswap_Choc_V1_Combined_EVQWGD001"
+				(at 0.254 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 Part Symbol for shared footprint Choc, Scroll Encoder"
+				(at 0 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CombinedChocEncoder_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -3.556 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -3.556 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -3.556 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -3.556 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.778) (xy -0.254 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.0127 -2.7305)
+					(mid -2.7305 0)
+					(end -0.0127 2.7305)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.778) (xy 0.254 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.048) (xy -0.254 2.794) (xy 0.381 2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -3.048) (xy -0.254 -2.794) (xy 0.381 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "EVQWGD001"
+					(at 0.254 -6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CombinedChocEncoder_2_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "chocv1\npush switch"
+					(at 9.144 2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib-chungus:Nice!View"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DS_{}"
+				(at 0 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Nice!View"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Nice!View_0_1"
+				(rectangle
+					(start -3.175 6.985)
+					(end 3.175 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Nice!View_1_1"
+				(pin input line
+					(at -6.985 5.08 0)
+					(length 3.81)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.985 2.54 0)
+					(length 3.81)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.985 0 0)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -6.985 -2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.985 -5.08 0)
+					(length 3.81)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 102.235 57.15)
+		(end 127 82.55)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ffd29f0-b350-4d21-a4a6-0fa8a96e9a32)
+	)
+	(rectangle
+		(start 22.86 18.415)
+		(end 81.915 69.215)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e2d5244-16e2-45f8-8bb5-0bbd573fbd42)
+	)
+	(rectangle
+		(start 95.25 18.415)
+		(end 133.985 51.435)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69a8382e-7aab-414a-b4f8-cf34521e5908)
+	)
+	(rectangle
+		(start 153.035 18.415)
+		(end 267.335 141.605)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8053bf86-9e9d-4fe3-8bd0-1bd7b1ed2594)
+	)
+	(text "SCREEN"
+		(exclude_from_sim no)
+		(at 114.935 90.17 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "0f2d3579-4352-426e-82f0-9ecc8be94cff")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 114.935 62.23 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "2aac98a3-e600-4f82-91bd-ce7d5a53e7ab")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 52.07 23.495 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "2b323d8e-ea56-44ed-97a1-96fe4dd9115f")
+	)
+	(text "ENCODER/CHOC COMBO"
+		(exclude_from_sim no)
+		(at 210.82 113.665 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "6821779b-5fd2-402a-b706-af2bf1ab894d")
+	)
+	(text "BATTERY"
+		(exclude_from_sim no)
+		(at 114.935 23.495 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "e87ecaa2-d49e-44cb-b076-d7531c8ef863")
+	)
+	(text "SWITCH MATRIX"
+		(exclude_from_sim no)
+		(at 210.82 23.495 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "f353677d-9a3f-4907-8af4-7b3e03bad962")
+	)
+	(junction
+		(at 219.075 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11786ffe-351a-4a2f-92d9-8b5e52a84274")
+	)
+	(junction
+		(at 236.855 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "192e44ad-0ca3-44e9-9efa-116920d579fe")
+	)
+	(junction
+		(at 241.935 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba3024d-0953-4d1e-a63e-cb05241da30e")
+	)
+	(junction
+		(at 224.155 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ef8995d-04d0-406c-a1a9-87367a507b8a")
+	)
+	(junction
+		(at 241.935 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2acad2e9-ad3c-445a-b0fe-e14bc7414006")
+	)
+	(junction
+		(at 241.935 108.585)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30f407eb-6278-49ed-a496-d4268558d153")
+	)
+	(junction
+		(at 219.075 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3609f382-75aa-4d00-92ba-e17fb1ff8ed2")
+	)
+	(junction
+		(at 183.515 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3751f374-9522-45db-9b47-b97dcc89c53d")
+	)
+	(junction
+		(at 165.735 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3da747c5-2a95-45b2-8464-560b31d25b6f")
+	)
+	(junction
+		(at 36.83 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8c634e-6de1-4e6d-a997-ff59689f526b")
+	)
+	(junction
+		(at 188.595 51.435)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45890d94-f2a2-4fbe-873b-218b77b97941")
+	)
+	(junction
+		(at 188.595 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ada4883-d061-4e40-a202-0e741be219e3")
+	)
+	(junction
+		(at 217.805 125.095)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f10a1aa-a471-4d88-85a8-b126d54003e8")
+	)
+	(junction
+		(at 217.805 130.175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ebe8d0f-e5c4-453f-a9ef-657af16d969c")
+	)
+	(junction
+		(at 165.735 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a365d4-0fb9-414e-9c70-1b7248769196")
+	)
+	(junction
+		(at 224.155 51.435)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863ffbc0-6de8-4c82-8379-98e2554a7801")
+	)
+	(junction
+		(at 224.155 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bcce97f-b54e-4891-8ea9-84a889d99b00")
+	)
+	(junction
+		(at 206.375 51.435)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d9b7f1-34a6-4876-a96d-0d97cc638872")
+	)
+	(junction
+		(at 236.855 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac51b80b-fecf-47cd-94a7-5c7ed1493fb4")
+	)
+	(junction
+		(at 219.075 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd8f41d1-4bad-49fe-a40a-abc42c73465c")
+	)
+	(junction
+		(at 188.595 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7f38bb7-6a68-4ca9-bcf8-961c9e351e4c")
+	)
+	(junction
+		(at 206.375 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0f26e2-d806-4681-9604-d7587168c242")
+	)
+	(junction
+		(at 206.375 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f83716-e41f-40fd-a464-9e6f194a74b2")
+	)
+	(junction
+		(at 241.935 51.435)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e76b79-2c4f-4698-aec9-58da9cf9e10b")
+	)
+	(junction
+		(at 201.295 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9817e35-e310-40d8-9497-f990daa575ab")
+	)
+	(junction
+		(at 236.855 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc45442-97fb-4660-8bbf-f878b6a6951f")
+	)
+	(junction
+		(at 201.295 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f007ba6a-1cd6-4772-8b31-43d6ee8a5e16")
+	)
+	(junction
+		(at 183.515 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f13304d1-e4bd-41cc-a86a-c2cb67864938")
+	)
+	(junction
+		(at 224.155 108.585)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2380720-0766-460a-83f1-2a67153093c2")
+	)
+	(junction
+		(at 201.295 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f48aa86b-4db4-4744-bd59-c1bf8a9f3e29")
+	)
+	(no_connect
+		(at 67.31 45.72)
+		(uuid "06d8c587-3ade-4f41-adae-814568f4ae4a")
+	)
+	(no_connect
+		(at 67.31 43.18)
+		(uuid "682cbe1a-81a1-403a-9382-93dc742ec34f")
+	)
+	(no_connect
+		(at 67.31 40.64)
+		(uuid "6c7eac0f-23c6-43f3-91f6-e98367948519")
+	)
+	(no_connect
+		(at 48.26 53.34)
+		(uuid "73f8b6c4-f66f-4b2f-b997-7b3ed74c4465")
+	)
+	(no_connect
+		(at 50.8 53.34)
+		(uuid "88951943-8102-4cdd-bbc9-00948381050e")
+	)
+	(no_connect
+		(at 53.34 53.34)
+		(uuid "c6a82e17-069e-495d-9cc8-62326c7219a5")
+	)
+	(no_connect
+		(at 125.73 39.37)
+		(uuid "d1349b0a-6def-4a8b-ad18-72248b24a29e")
+	)
+	(wire
+		(pts
+			(xy 201.295 38.735) (xy 201.295 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003c01d6-5a9a-4b92-ac3d-de0defccfda5")
+	)
+	(wire
+		(pts
+			(xy 67.31 33.02) (xy 74.295 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0080c06b-4575-4aaf-9d99-9d452703229d")
+	)
+	(wire
+		(pts
+			(xy 241.935 70.485) (xy 254.635 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "096e951b-ce71-43a6-ba0d-49043bec1646")
+	)
+	(wire
+		(pts
+			(xy 188.595 70.485) (xy 206.375 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "0f52883e-dbe1-4ed6-88c9-035cc7d0e8e6")
+	)
+	(wire
+		(pts
+			(xy 188.595 51.435) (xy 206.375 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "11228537-ba55-4076-ac27-45cc725a3278")
+	)
+	(wire
+		(pts
+			(xy 177.165 137.795) (xy 240.665 137.795)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "1677f5a6-123a-4164-90eb-37f906d08ab2")
+	)
+	(wire
+		(pts
+			(xy 102.87 106.68) (xy 114.935 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1779596a-c664-4670-81bc-13269803d2c9")
+	)
+	(wire
+		(pts
+			(xy 217.805 130.175) (xy 224.155 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c81fd5e-8dc9-4f49-8c86-f7e706aae805")
+	)
+	(wire
+		(pts
+			(xy 219.075 38.735) (xy 219.075 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2359641a-7cb4-46da-8063-cd85a2e84687")
+	)
+	(wire
+		(pts
+			(xy 219.075 57.785) (xy 219.075 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c16bd5-5892-47c5-9632-3da87907e9c3")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244fc815-064b-400e-8c4c-434779d0104c")
+	)
+	(wire
+		(pts
+			(xy 219.075 28.575) (xy 219.075 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25509ab0-2f83-4489-99b9-9bdd7f8bbd94")
+	)
+	(wire
+		(pts
+			(xy 188.595 89.535) (xy 170.815 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "2666b4fe-b94f-487c-af78-48d903abab5e")
+	)
+	(wire
+		(pts
+			(xy 67.31 38.1) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276b2782-d480-4745-8b9f-f5448f367428")
+	)
+	(wire
+		(pts
+			(xy 217.805 120.015) (xy 217.805 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f3d0e3-3f58-4ee5-9709-fb69244dc18a")
+	)
+	(wire
+		(pts
+			(xy 224.155 89.535) (xy 241.935 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "3a1be5d6-a835-4ba8-bffa-71b679286a2f")
+	)
+	(wire
+		(pts
+			(xy 219.075 76.835) (xy 219.075 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b85c60e-1a54-4fb2-b401-a335ea224a40")
+	)
+	(polyline
+		(pts
+			(xy 127.635 112.395) (xy 110.49 112.395)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "3c3a2a8b-c94a-4dad-8819-d8c395dfecf8")
+	)
+	(wire
+		(pts
+			(xy 36.83 35.56) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7cc2d8-8263-410f-be0b-0e176b4fe713")
+	)
+	(wire
+		(pts
+			(xy 240.665 111.125) (xy 177.165 111.125)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "5933e003-212b-4ca5-893d-2aee671dcb3c")
+	)
+	(wire
+		(pts
+			(xy 201.295 28.575) (xy 201.295 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597299b9-7c90-4483-8756-897ecca40b56")
+	)
+	(wire
+		(pts
+			(xy 165.735 57.785) (xy 165.735 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d87eb52-d62d-4bf7-b831-3e1334dba832")
+	)
+	(wire
+		(pts
+			(xy 211.455 130.175) (xy 217.805 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631f8731-2737-4fd7-86b5-dc1dd43270c4")
+	)
+	(wire
+		(pts
+			(xy 170.815 51.435) (xy 188.595 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "69a9630d-a8bd-4414-8a52-79dce345cdf5")
+	)
+	(wire
+		(pts
+			(xy 201.295 76.835) (xy 201.295 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b87b179-6ab5-407c-aa2b-1a9c2446fe77")
+	)
+	(wire
+		(pts
+			(xy 201.295 100.965) (xy 206.375 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb2fb28-fbb0-45a6-8a7c-aaec7b238d94")
+	)
+	(polyline
+		(pts
+			(xy 127.635 86.995) (xy 127.635 112.395)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "71f833d2-7f8f-4930-ba54-1110f7f307a5")
+	)
+	(wire
+		(pts
+			(xy 217.805 125.095) (xy 219.075 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f758ba-7931-433c-9b78-ce092abe2249")
+	)
+	(wire
+		(pts
+			(xy 236.855 28.575) (xy 236.855 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794a4900-51a9-41a7-89ec-72be55d5f875")
+	)
+	(wire
+		(pts
+			(xy 241.935 89.535) (xy 254.635 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "7d676d25-9ac4-4c6f-b140-1162f2cde47f")
+	)
+	(wire
+		(pts
+			(xy 113.03 36.83) (xy 115.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82aaf122-8e50-4f5d-a7e5-71eb9eb55df8")
+	)
+	(wire
+		(pts
+			(xy 236.855 38.735) (xy 236.855 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ada7b4-b2e3-44dc-864d-d37935c5e01a")
+	)
+	(polyline
+		(pts
+			(xy 99.695 112.395) (xy 99.695 86.995)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "85c37826-44e9-4430-8e53-05505fb04e6d")
+	)
+	(wire
+		(pts
+			(xy 184.15 126.365) (xy 196.215 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8810f61c-081a-4072-b8e1-a65b840bd732")
+	)
+	(wire
+		(pts
+			(xy 236.855 76.835) (xy 236.855 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94664759-561b-4efb-932d-6d6c06474090")
+	)
+	(wire
+		(pts
+			(xy 183.515 57.785) (xy 183.515 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a16a44-5498-4890-997d-2796f11a1155")
+	)
+	(wire
+		(pts
+			(xy 236.855 57.785) (xy 236.855 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aca2b69-f99a-458b-8c87-3b90e72eae12")
+	)
+	(polyline
+		(pts
+			(xy 115.57 86.995) (xy 127.635 86.995)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "9b756126-bca6-4c53-b2ea-7cfb30bdd8c2")
+	)
+	(wire
+		(pts
+			(xy 183.515 28.575) (xy 183.515 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eff61c1-c93f-4103-ab58-1b686a97e809")
+	)
+	(wire
+		(pts
+			(xy 165.735 38.735) (xy 165.735 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd9530-f424-4135-b993-2eba73e63a16")
+	)
+	(wire
+		(pts
+			(xy 240.665 137.795) (xy 240.665 111.125)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "a358476f-7f02-4eca-97da-184eacc857c2")
+	)
+	(wire
+		(pts
+			(xy 165.735 28.575) (xy 165.735 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4462975-ac11-4687-8d68-f2c7afb3fc68")
+	)
+	(wire
+		(pts
+			(xy 102.87 104.14) (xy 114.935 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f224fd-c800-4224-9506-912705eb6701")
+	)
+	(wire
+		(pts
+			(xy 211.455 125.095) (xy 217.805 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22ba20e-e8eb-4560-ae6a-749beb664bdf")
+	)
+	(wire
+		(pts
+			(xy 170.815 70.485) (xy 188.595 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "b2fe0ddc-0195-400d-8d37-8f69e18055ee")
+	)
+	(polyline
+		(pts
+			(xy 110.49 112.395) (xy 99.695 112.395)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "b872e832-e929-4bfa-8549-95af2aee8cff")
+	)
+	(wire
+		(pts
+			(xy 188.595 89.535) (xy 206.375 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "bb1d5ea5-e465-477b-9dfd-75fe5064fda8")
+	)
+	(wire
+		(pts
+			(xy 206.375 70.485) (xy 224.155 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "bccf3794-68f0-491c-b430-0d5196bfc99b")
+	)
+	(wire
+		(pts
+			(xy 217.805 130.175) (xy 217.805 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c687e6de-14b4-4462-85b5-23c4a16b531c")
+	)
+	(wire
+		(pts
+			(xy 224.155 70.485) (xy 241.935 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "c8125992-cbdd-43d1-88e9-36835431955f")
+	)
+	(wire
+		(pts
+			(xy 201.295 57.785) (xy 201.295 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb928db6-25bf-4e04-895a-df84b50fe292")
+	)
+	(wire
+		(pts
+			(xy 183.515 38.735) (xy 183.515 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07963b1-efd2-41d3-af66-cb8eaddf6abf")
+	)
+	(wire
+		(pts
+			(xy 241.935 51.435) (xy 254.635 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "d1fbf218-d202-4a02-932b-564d4612e246")
+	)
+	(polyline
+		(pts
+			(xy 99.695 86.995) (xy 115.57 86.995)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "da623d87-0c35-47b0-a93f-2fa31bce3b2a")
+	)
+	(wire
+		(pts
+			(xy 241.935 108.585) (xy 254.635 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "db95c661-d065-4503-85a2-767e8b721a47")
+	)
+	(wire
+		(pts
+			(xy 177.165 111.125) (xy 177.165 137.795)
+		)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(uuid "dc3b0d36-1417-48e5-a81e-fa67e76c0934")
+	)
+	(wire
+		(pts
+			(xy 206.375 108.585) (xy 224.155 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "e23570e2-e9b1-438d-81f4-f3b61af0c183")
+	)
+	(wire
+		(pts
+			(xy 224.155 51.435) (xy 241.935 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "e3b3c5c9-257c-46ba-8432-9e63c792bfaa")
+	)
+	(wire
+		(pts
+			(xy 224.155 108.585) (xy 241.935 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "fa46f274-2859-4aeb-8d52-ba5e655c73eb")
+	)
+	(wire
+		(pts
+			(xy 206.375 89.535) (xy 224.155 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "fbaaeddf-e399-4b97-9d02-f9f458d56b71")
+	)
+	(wire
+		(pts
+			(xy 206.375 51.435) (xy 224.155 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "fe9359de-b8ee-4390-9b8f-18c21332e457")
+	)
+	(global_label "COL-2"
+		(shape input)
+		(at 67.31 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "004f9a17-e364-4e2c-9961-10e2590ccce4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8869 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-4"
+		(shape input)
+		(at 254.635 108.585 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "0e8649f1-51f4-45c9-9e4b-e2d03246c3c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.5082 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 114.935 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "0f07f5b2-f913-45d7-bde5-f95e4c3aba36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.1098 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI{slash}SCL"
+		(shape input)
+		(at 114.935 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "14e7691a-b8f5-4d80-8763-35f79ca0a8c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.2415 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC-B"
+		(shape input)
+		(at 196.215 128.905 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "26940b75-4317-4931-9713-fd32a9c840aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4685 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT+"
+		(shape input)
+		(at 125.73 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "398b1fe4-fc8f-4787-b1e4-0b0bf990fa32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.0105 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC-B"
+		(shape input)
+		(at 36.83 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "3af4ded5-fbae-453e-ac9f-531954ca8f43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.1262 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW-18-IN"
+		(shape input)
+		(at 217.805 120.015 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "3e335bbf-5e5b-484f-a6a3-107073f84714")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.3208 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-1"
+		(shape input)
+		(at 67.31 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "45f81823-a8b4-4832-b85a-0f9d863f2c86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8869 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW-18-OUT"
+		(shape input)
+		(at 217.805 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "517ad990-a4ee-4c60-9596-a848dfd48f2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6755 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW-18-OUT"
+		(shape input)
+		(at 201.295 100.965 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "5a269565-7764-4421-a488-763af84290e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.3916 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 36.83 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "5e68142d-55f0-474f-90e9-57059c7e8af0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.5232 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC-A"
+		(shape input)
+		(at 36.83 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "5f84f8c4-ef9c-445f-b890-8826eef74ffe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.2532 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-3"
+		(shape input)
+		(at 36.83 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "63e887f4-6c99-46db-87d2-de5e9f33f3d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9568 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI{slash}SCL"
+		(shape input)
+		(at 36.83 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "695c0a61-7e0d-4dc0-9c5e-81a77375624f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.1365 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-1"
+		(shape input)
+		(at 165.735 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "6bae838c-b2aa-4d8d-8217-d753ef8ee3af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.1581 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-4"
+		(shape input)
+		(at 67.31 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "71064553-e88e-4926-81e2-c6cb17bf666c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8869 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-3"
+		(shape input)
+		(at 67.31 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "86ea32d2-03f1-48bd-9909-73a63723cdf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8869 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 111.125 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "8ce38772-c0c0-4fce-a749-24123bc22e71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.6225 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-3"
+		(shape input)
+		(at 201.295 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "93d3e31c-09bd-45cc-b4b5-aa1705abfb6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.7181 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-2"
+		(shape input)
+		(at 254.635 70.485 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "a062651d-dead-471f-b2a5-b44597e937ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.5082 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK{slash}SDA"
+		(shape input)
+		(at 36.83 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "a33bfbe8-9de0-425e-8cf0-7a8069e8027b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.6868 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-2"
+		(shape input)
+		(at 36.83 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "a731ef2e-1ef9-481e-b659-fa20323059e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9568 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 36.83 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "ae60598c-c5c5-4e6c-95a8-2b1766d4ddb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.0048 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-2"
+		(shape input)
+		(at 183.515 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "b28a2284-a4ed-476a-93a6-06612a920654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.9381 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-1"
+		(shape input)
+		(at 254.635 51.435 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "b4ef9669-9253-4d94-b9ba-0585cd46d21c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.5082 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 67.31 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "b621477e-13df-4031-8a29-f2e516726d15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.8125 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-5"
+		(shape input)
+		(at 236.855 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "b73f9e43-996c-49ce-9821-d17278d1ba05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.2781 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-5"
+		(shape input)
+		(at 67.31 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "c99efa6d-cc4a-4796-af16-a07dae8571c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8869 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-1"
+		(shape input)
+		(at 36.83 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "d1e9112d-787b-4747-a533-611daeb5cfdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9568 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK{slash}SDA"
+		(shape input)
+		(at 114.935 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "d472429e-2970-40ba-8372-75a50aa5c6fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.7918 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW-18-IN"
+		(shape input)
+		(at 201.295 95.885 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "d94e9b9c-6f5b-4d3f-a3eb-87e70229bdd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4076 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-3"
+		(shape input)
+		(at 254.635 89.535 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "ddce89b7-52fd-4c1c-8a61-aa88b682e034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.5082 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC-A"
+		(shape input)
+		(at 196.215 123.825 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "e416273f-e4e3-4327-859d-50357208394f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5774 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT+"
+		(shape input)
+		(at 67.31 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "eb7ee1bc-07ef-4ee2-9532-37ce47f9d35a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.5905 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL-4"
+		(shape input)
+		(at 219.075 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "f24ff872-e779-4259-9344-175bcbea5591")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.4981 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW-4"
+		(shape input)
+		(at 36.83 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "f67684d0-ec5f-4117-a1d8-5968dd5002a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9568 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib-chungus:2xBatteryPad")
+		(at 109.22 43.18 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "000d99a1-5d5d-4ab6-9425-12b412e81bf9")
+		(property "Reference" "BP-1"
+			(at 101.6 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 110.4899 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "anura:BatteryPad"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f005df26-000f-4726-b2c0-044861b2e1cb")
+		)
+		(pin "1"
+			(uuid "9fbd8045-8c72-4e49-a5ac-2cef494545e4")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "BP-1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 168.275 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09c05602-4426-4be4-afdc-0fb345b595f7")
+		(property "Reference" "SW-14"
+			(at 170.307 53.467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 170.307 56.007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 168.275 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 168.275 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94de9c1d-834f-4502-9df8-e9fb3071f06c")
+		)
+		(pin "1"
+			(uuid "3bba2d98-ee2e-42d4-b02b-7fdba6945dcb")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ab005d8-1592-48e8-9c60-f2119652a47f")
+		(property "Reference" "#PWR01"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 46.355 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c98b21-dac5-4a59-835b-3da709707c7a")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 186.055 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c7be851-8fa0-45c2-9568-42ebe29e3bc1")
+		(property "Reference" "SW-12"
+			(at 188.087 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 188.087 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 186.055 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.055 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 186.055 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1512c163-89ea-47e9-a8c9-57ce939ecccc")
+		)
+		(pin "1"
+			(uuid "5d060473-4856-4bcf-aa6c-0d2589dd24e5")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d425747-2ddf-4cf2-8b67-332e74307942")
+		(property "Reference" "#PWR05"
+			(at 184.15 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 129.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24a77e7-a1a4-403a-ad39-405f02779862")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 224.155 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10485bd9-4b4d-4a4e-be60-afcbd24c666a")
+		(property "Reference" "D-6"
+			(at 226.441 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 226.441 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 224.155 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.155 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 224.155 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.155 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.155 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de27b68e-f0ec-47b6-ba22-88f867ba1ea6")
+		)
+		(pin "1"
+			(uuid "d1dcc74d-04ad-4e97-98d7-2c8da8c2150b")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 206.375 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "160ef1ca-b85e-4a3e-b3bc-b20d0ad357ba")
+		(property "Reference" "D-9"
+			(at 208.661 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.661 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 206.375 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 206.375 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 206.375 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 206.375 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9a23663-2457-447f-bbdf-d1b62415a8f7")
+		)
+		(pin "1"
+			(uuid "e090435b-a9c0-429c-a364-af761ecd8906")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 239.395 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cbaf584-cca9-43b7-adad-2857041fcd22")
+		(property "Reference" "SW-3"
+			(at 241.427 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 241.427 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 239.395 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.395 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 239.395 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef43c274-f9db-42a3-afbc-746143ae0bba")
+		)
+		(pin "1"
+			(uuid "98d949e2-48a5-4b59-84ab-823df1d33755")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 221.615 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23ae0b7b-1a5b-4ad4-99d5-480f1e29c17e")
+		(property "Reference" "SW-5"
+			(at 223.647 53.467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 223.647 56.007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 221.615 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 221.615 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 221.615 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56f53f77-d8f3-41d8-8b57-2a12ecc66699")
+		)
+		(pin "1"
+			(uuid "d0315e6b-709b-4d82-83e5-de1cb8c7b1f6")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.835 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29f94746-ec38-4dcf-8518-e6d6f10b4b12")
+		(property "Reference" "SW-9"
+			(at 205.867 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 205.867 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 203.835 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.835 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.835 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eecf8b90-ec2b-49ff-9032-8a77791b9ec4")
+		)
+		(pin "1"
+			(uuid "e6fa7b8d-1179-4879-a941-f07725e8a5f4")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 168.275 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dc0da85-d74f-447c-9b4f-5678a57789b9")
+		(property "Reference" "SW-15"
+			(at 170.307 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 170.307 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 168.275 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 168.275 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b22f464-cbef-4384-9121-3c9593ac4e64")
+		)
+		(pin "1"
+			(uuid "cafc3518-b400-4be2-b347-22012d430b0a")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 188.595 66.675 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40458a70-87ac-4663-9d45-2bd98ecb3b04")
+		(property "Reference" "D-11"
+			(at 190.881 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 190.881 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 188.595 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 188.595 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 188.595 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 188.595 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "811822e7-69c1-4a40-beb8-eda43bdaaa1a")
+		)
+		(pin "1"
+			(uuid "a98f27f2-75e3-4cfe-ab2b-c1e7f0cbce7e")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "497d1bc9-799d-4dce-8c89-61f7bc9fb72e")
+		(property "Reference" "#PWR010"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 41.275 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e5c801c-b154-4923-b260-d49911c130a8")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 224.155 104.775 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4db28a81-e66a-44cd-a4bb-6454f3f49b2e")
+		(property "Reference" "D-17"
+			(at 226.441 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 226.441 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 224.155 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.155 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 224.155 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.155 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.155 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fc4fe78-f98a-461c-995a-6da6fece81ed")
+		)
+		(pin "1"
+			(uuid "33b2e0b9-79fa-4cd3-ab26-c0f276560a06")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 241.935 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e98a2f7-b375-444b-a175-1a49d1702ce4")
+		(property "Reference" "D-3"
+			(at 244.221 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 244.221 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 241.935 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 241.935 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.935 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.935 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73f7541c-4f1a-4e10-9e74-57d767b87530")
+		)
+		(pin "1"
+			(uuid "9e05aebb-4942-41d6-ac15-f5610db0d19c")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f733bf-fc05-4181-9101-c8ad04986f0f")
+		(property "Reference" "#PWR07"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 109.855 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68b9cdb2-3a02-4de0-892a-e77ddc9f309d")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:MCU_Nice_Nano_V2")
+		(at 52.07 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab738d8-e44e-4ba4-bce5-9f7e6d445358")
+		(property "Reference" "U1"
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Nice_Nano_V2"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "anura:nice!nano_facedown"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 107.95 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0c271ccd-ce85-4b9c-82ce-c1d1af46995b")
+		)
+		(pin "27"
+			(uuid "78b50ebc-53d0-48d7-98d9-34f44d643db7")
+		)
+		(pin "21"
+			(uuid "278d04a0-cf03-482b-8e51-d6eb7d89fbdb")
+		)
+		(pin "2"
+			(uuid "d8322e59-5069-451b-a292-4921d20e702e")
+		)
+		(pin "4"
+			(uuid "77be1b24-492b-4bbb-9c7c-cad5193ab4a5")
+		)
+		(pin "5"
+			(uuid "c7c50fa7-9b7a-4331-bd78-68f9f7312d76")
+		)
+		(pin "1"
+			(uuid "86013982-24b6-462d-959c-dd9c151eaad5")
+		)
+		(pin "9"
+			(uuid "582e03f0-41d2-4eb1-b814-eb9b94b5d3d9")
+		)
+		(pin "25"
+			(uuid "d4c9a8fb-9984-4a4b-b4df-2188f336b80c")
+		)
+		(pin "24"
+			(uuid "2ddfa459-e24d-46f2-8bbd-16768c77c2da")
+		)
+		(pin "26"
+			(uuid "bd6c5859-5c2a-417e-a241-91bdd3ecb614")
+		)
+		(pin "7"
+			(uuid "70d960da-aa16-417b-a939-6a1fc3e0e269")
+		)
+		(pin "22"
+			(uuid "05663543-aa1b-4280-81a5-026169854d86")
+		)
+		(pin "3"
+			(uuid "86e5f065-7376-4ad5-9903-164a63653673")
+		)
+		(pin "6"
+			(uuid "a05e44a9-fd14-4d37-a392-e83d9fbef8f3")
+		)
+		(pin "8"
+			(uuid "2ee13ae2-084e-4a7d-ada4-a34b2daef3fa")
+		)
+		(pin "11"
+			(uuid "5214ab68-0bfd-4a20-a9ec-dae4ce0e0339")
+		)
+		(pin "12"
+			(uuid "f3c95aa8-f3fd-41b9-ac00-b51c04da1a5b")
+		)
+		(pin "23"
+			(uuid "d879a993-21ed-4140-bae5-cfa632d03b61")
+		)
+		(pin "19"
+			(uuid "26b9e985-e2dc-484a-953d-fb7b1c8a7c6b")
+		)
+		(pin "16"
+			(uuid "b86e37b8-31e0-4bdb-a64a-3e690b859cdc")
+		)
+		(pin "20"
+			(uuid "f7b119e7-7eaa-460b-b06e-03e51dd1d1dd")
+		)
+		(pin "14"
+			(uuid "1e72557e-b283-4d5e-8a1f-c5758d5d73e3")
+		)
+		(pin "17"
+			(uuid "ff5ce8e6-b904-4b40-941d-97477e377430")
+		)
+		(pin "18"
+			(uuid "0901dccf-0a56-411d-93e3-d9335df5a172")
+		)
+		(pin "15"
+			(uuid "80e63fb7-97de-403b-988c-5c0ebbeab18a")
+		)
+		(pin "13"
+			(uuid "ff14fdd3-34d6-43f7-9cc3-15a2cbbc6221")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 241.935 66.675 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f9102e5-ca47-49a6-acf7-2e0f1335e9cc")
+		(property "Reference" "D-2"
+			(at 244.221 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 244.221 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 241.935 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 241.935 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.935 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.935 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d3e2e4b-7bd4-4d28-9370-69bafa501443")
+		)
+		(pin "1"
+			(uuid "e39d90ce-2bc9-4020-b505-0aca2c8f5a56")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 188.595 47.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ab2c11-b5cb-4255-8948-8988221c98f6")
+		(property "Reference" "D-10"
+			(at 190.881 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 190.881 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 188.595 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 188.595 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 188.595 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 188.595 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b6150e6-4b44-4481-8045-08ac0d734850")
+		)
+		(pin "1"
+			(uuid "73f60269-2c80-4e41-9563-7583b3b43e37")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib-chungus:CombinedChocEncoder")
+		(at 221.615 127.635 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad500bf-ccc0-44db-b6dd-61c60d1542d8")
+		(property "Reference" "CombChocEncoder1"
+			(at 224.155 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 221.615 123.063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "anura:hotswap_chocv1_combined_EVQWGD001"
+			(at 221.869 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 221.615 138.811 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 Part Symbol for shared footprint Choc, Scroll Encoder"
+			(at 221.615 137.541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "0ce73cd1-d541-4c90-a125-fbd77823fde3")
+		)
+		(pin "B"
+			(uuid "5da20fd1-3e07-4d5c-8f6c-704f93a35dd1")
+		)
+		(pin "C"
+			(uuid "93e04737-a32a-43ba-9ff8-22ea3ce58e09")
+		)
+		(pin "D"
+			(uuid "8ab51f59-9e8e-4ad7-a0b2-c513b3c96b29")
+		)
+		(pin "S1"
+			(uuid "55099983-5e1c-45b4-892d-cb0366edee4a")
+		)
+		(pin "S2"
+			(uuid "70411027-43d3-408b-bf94-00daf0bc6441")
+		)
+		(pin "2"
+			(uuid "b117fcdb-7df9-466f-bde4-cb7b4f68767a")
+		)
+		(pin "1"
+			(uuid "e5ee84f6-abc0-4f5c-a119-ebd47fff7498")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "CombChocEncoder1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b3fbb27-f03c-407f-a040-3e4d732688f9")
+		(property "Reference" "#PWR03"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 34.925 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf9007b6-f1dd-497d-8be5-0b69da154c55")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 116.205 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85520824-ce73-4cec-ac7d-36ea364a401f")
+		(property "Reference" "SW-RST-L1"
+			(at 116.205 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 116.205 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:SW_PUSH_SPST"
+			(at 116.205 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 116.205 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ed9f413-9f9e-43ab-a96e-a7d41dd99033")
+		)
+		(pin "2"
+			(uuid "45be8b26-dc85-4ec4-9abe-c73da2f73340")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-RST-L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 206.375 47.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88de92de-f6e7-468d-816e-18ac05c16c22")
+		(property "Reference" "D-7"
+			(at 208.661 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.661 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 206.375 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 206.375 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 206.375 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 206.375 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "049e55da-9bb0-42b3-9c4b-d9d61fdf9005")
+		)
+		(pin "1"
+			(uuid "4500616b-de41-4626-8f84-961b364bf9c9")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2xBatteryPad_1")
+		(lib_id "lib-chungus:2xBatteryPad")
+		(at 109.22 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89205e5d-385e-4eb6-8fb4-868d22c7cb65")
+		(property "Reference" "BP-1"
+			(at 101.6 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 110.4899 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "anura:BatteryPad"
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f005df26-000f-4726-b2c0-044861b2e1cc")
+		)
+		(pin "1"
+			(uuid "9fbd8045-8c72-4e49-a5ac-2cef494545e5")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "BP-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 239.395 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bb69564-b4e5-4c59-babb-df0a93b7e546")
+		(property "Reference" "SW-16"
+			(at 243.205 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 243.205 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 239.395 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.395 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 239.395 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0db82000-d680-496a-9b37-c5e19c90070a")
+		)
+		(pin "1"
+			(uuid "0c552585-6ef4-4fc3-b324-44686c3b7730")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 224.155 47.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ce10fbd-3fbb-42cc-be0c-c5a88e92f75a")
+		(property "Reference" "D-4"
+			(at 226.441 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 226.441 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 224.155 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.155 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 224.155 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.155 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.155 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d767fea-0bbb-4337-a95a-6def71485367")
+		)
+		(pin "1"
+			(uuid "10b6d141-12eb-4c81-aade-9830adbf6833")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 221.615 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9372d3bc-3c56-47ba-b05e-602c9f6f881e")
+		(property "Reference" "SW-17"
+			(at 223.647 91.567 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 223.647 94.107 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 221.615 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 221.615 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 221.615 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e9fcbaa-f7c7-48ed-a8e5-09e27d371329")
+		)
+		(pin "1"
+			(uuid "f9be77a5-d670-4c65-96e7-ca3ec2516c3c")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 170.815 47.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97a68b87-d94e-4fed-94c8-906dff820add")
+		(property "Reference" "D-13"
+			(at 173.101 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 173.101 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 170.815 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 170.815 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.815 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.815 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc55b750-49f0-482e-8d10-2895dcbae25f")
+		)
+		(pin "1"
+			(uuid "a2924233-4c0f-4d99-92b3-c080e4ad79cd")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 224.155 66.675 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e4247dc-fb83-46ef-8ed8-3a44a4248338")
+		(property "Reference" "D-5"
+			(at 226.441 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 226.441 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 224.155 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.155 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 224.155 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 224.155 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.155 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "daec94bb-f638-4286-a990-f30d2f7e5821")
+		)
+		(pin "1"
+			(uuid "38033cab-5b4a-48e8-a11f-cbaf0f636ca3")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib-chungus:Nice!View")
+		(at 121.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1e024cc-b6e3-4107-b81e-90a5262e72b2")
+		(property "Reference" "DS-L-1"
+			(at 121.793 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Nice!View"
+			(at 121.793 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:nice!view"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1b4ee111-4392-4339-a6f6-27cf5717ffa0")
+		)
+		(pin "2"
+			(uuid "0106cf1f-1576-4551-b1d1-1db777ccf768")
+		)
+		(pin "5"
+			(uuid "b6da187b-f403-4372-8e03-334de007a73b")
+		)
+		(pin "3"
+			(uuid "f76e59c3-ff8d-4f21-bf3c-77ce64fc36ff")
+		)
+		(pin "1"
+			(uuid "bbdafb3d-ad6a-4f93-ae8f-7477ab5de49c")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "DS-L-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 241.935 104.775 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a28f00f1-6176-4125-8fc4-5c9fb69c7371")
+		(property "Reference" "D-16"
+			(at 244.221 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 244.221 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 241.935 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 241.935 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.935 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.935 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5ed8a54-cf6a-4ed7-8b48-59ba3d2f412e")
+		)
+		(pin "1"
+			(uuid "f27e738d-1516-42d2-93dc-813307cc4a3f")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 186.055 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a673877f-9fb5-4444-bd61-7060aaafed52")
+		(property "Reference" "SW-11"
+			(at 188.087 53.467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 188.087 56.007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 186.055 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.055 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 186.055 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28ab2271-0298-41bc-8847-dd5f22fe7bd4")
+		)
+		(pin "1"
+			(uuid "7f679062-5092-4a2c-bc8f-6e69fd5624ba")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 239.395 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a699970e-ffbb-4d83-a8a3-9e709b790f2c")
+		(property "Reference" "SW-2"
+			(at 241.427 53.467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 241.427 56.007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 239.395 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.395 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 239.395 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "524f3b5e-a650-42d5-ab55-d19cb1e5e261")
+		)
+		(pin "1"
+			(uuid "65a7614a-09f2-4157-8c11-3ecb74728697")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 206.375 104.775 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab22d670-91b7-459a-8906-182b0ebdd613")
+		(property "Reference" "D-18"
+			(at 208.661 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.661 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 206.375 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 206.375 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 206.375 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 206.375 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f3f75b0-d597-4041-a8bf-0f527c015984")
+		)
+		(pin "1"
+			(uuid "d8f6bd6d-9df8-4aaa-b2ed-6a098facfe29")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 186.055 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad4b5c49-4270-4063-b557-a513b597360f")
+		(property "Reference" "SW-10"
+			(at 188.087 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 188.087 36.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 186.055 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.055 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 186.055 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1193f5df-3fb4-4890-bf6f-8eb4e6051785")
+		)
+		(pin "1"
+			(uuid "312a87a6-b215-41d0-8f04-0717b0bbe8c8")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.835 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b065f59a-ad11-4ca5-be0e-5ec79f4404f9")
+		(property "Reference" "SW-8"
+			(at 205.867 53.467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 205.867 56.007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 203.835 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.835 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.835 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6a545e0-6191-4018-a6c7-091ea91cd5f3")
+		)
+		(pin "1"
+			(uuid "9eb9b50d-94d8-46c0-99a7-e6c068a285fc")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 241.935 47.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b635607c-877a-44dc-a566-c6c0f4a3a332")
+		(property "Reference" "D-1"
+			(at 244.221 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 244.221 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 241.935 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 241.935 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.935 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.935 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73b6bdcb-83c4-425a-8bf9-daf57b5dbda6")
+		)
+		(pin "1"
+			(uuid "d45a34b9-5593-4341-b3f5-bd0148b0d0cc")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.285 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7bdb7d8-029a-4527-beb8-2bbabd8a8af7")
+		(property "Reference" "#PWR04"
+			(at 121.285 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.285 78.105 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.285 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91e0e4d9-c527-46a5-a9cf-1075b6ba9477")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.835 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8f986cd-1fa8-49e4-8c87-cf18a3ecafde")
+		(property "Reference" "SW-7"
+			(at 205.867 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 205.867 36.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 203.835 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.835 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.835 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03a6c5ec-23fb-4daa-99ef-bdd40fe51f34")
+		)
+		(pin "1"
+			(uuid "3d6e3b05-9046-4629-87a5-c01a4f340314")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 168.275 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba3ef034-74d4-4c06-9d34-acd38668881e")
+		(property "Reference" "SW-13"
+			(at 170.307 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 170.307 36.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 168.275 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 168.275 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "341ae56d-81f4-4d57-854b-f2a25ab70bba")
+		)
+		(pin "1"
+			(uuid "e6baa306-19cf-4067-ba80-f48bdfc05b05")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CombinedChocEncoder_1")
+		(lib_id "lib-chungus:CombinedChocEncoder")
+		(at 203.835 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba7edc31-f6dc-4b7a-af40-d33faaa74e8f")
+		(property "Reference" "CombChocEncoder1"
+			(at 203.835 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 204.089 120.523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "anura:hotswap_chocv1_combined_EVQWGD001"
+			(at 204.089 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.835 138.811 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 Part Symbol for shared footprint Choc, Scroll Encoder"
+			(at 203.835 137.541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "0ce73cd1-d541-4c90-a125-fbd77823fde4")
+		)
+		(pin "B"
+			(uuid "5da20fd1-3e07-4d5c-8f6c-704f93a35dd2")
+		)
+		(pin "C"
+			(uuid "93e04737-a32a-43ba-9ff8-22ea3ce58e0a")
+		)
+		(pin "D"
+			(uuid "8ab51f59-9e8e-4ad7-a0b2-c513b3c96b2a")
+		)
+		(pin "S1"
+			(uuid "55099983-5e1c-45b4-892d-cb0366edee4b")
+		)
+		(pin "S2"
+			(uuid "70411027-43d3-408b-bf94-00daf0bc6442")
+		)
+		(pin "2"
+			(uuid "b117fcdb-7df9-466f-bde4-cb7b4f68767b")
+		)
+		(pin "1"
+			(uuid "e5ee84f6-abc0-4f5c-a119-ebd47fff7499")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "CombChocEncoder1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 239.395 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beff8811-104f-4d27-8421-a7138a87f947")
+		(property "Reference" "SW-1"
+			(at 241.427 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 241.427 36.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 239.395 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.395 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 239.395 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4665de9-631a-433f-88d5-15a0a2042b73")
+		)
+		(pin "1"
+			(uuid "829a0622-f030-431e-97ba-5551bf139c8c")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 221.615 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfc9a2f4-24b5-4d35-b4f3-1803b48ee8db")
+		(property "Reference" "SW-4"
+			(at 223.647 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 223.647 36.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 221.615 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 221.615 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 221.615 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92a1479a-df8a-4fc0-81b1-3d05a1949049")
+		)
+		(pin "1"
+			(uuid "2de10aae-2818-4555-b7f1-7143bb2d8725")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 206.375 66.675 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2dc8a1f-79fb-409c-8cc2-f42b820fba49")
+		(property "Reference" "D-8"
+			(at 208.661 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.661 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 206.375 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 206.375 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 206.375 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 206.375 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dffdcc76-e34a-41ca-a191-b88e7f1922ef")
+		)
+		(pin "1"
+			(uuid "b91f47b4-e80c-48df-b98d-73a9316a25e4")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 221.615 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c74b9db1-862c-48c4-b1f4-c480de789d94")
+		(property "Reference" "SW-6"
+			(at 223.647 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 223.647 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:Choc_Hotswap_Reversible"
+			(at 221.615 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 221.615 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 221.615 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8a22e6e-7ccb-4662-a053-fd6740b28739")
+		)
+		(pin "1"
+			(uuid "4c21d8b8-8f8b-43d2-ba54-e73591a3e7d8")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 188.595 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c92ae10a-ca33-47d3-8b68-f1fc44e273f5")
+		(property "Reference" "D-12"
+			(at 190.881 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 190.881 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 188.595 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 188.595 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 188.595 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 188.595 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9856c68f-e6ca-40d7-9b67-c3806321c6a3")
+		)
+		(pin "1"
+			(uuid "ef8f804b-468e-4b1b-afd8-ab90697d94b9")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 120.65 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d953c610-4c4d-45ad-8c27-4ce097063fe1")
+		(property "Reference" "SW-BAT-1"
+			(at 120.65 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 120.65 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "anura:SW-TH_MSK12C02"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a35ca0f-cbb4-4ede-acc1-a8aee94fa022")
+		)
+		(pin "2"
+			(uuid "fc7ef998-c697-44cf-869d-29ce21f2142a")
+		)
+		(pin "3"
+			(uuid "73bae852-9fb2-4c5f-8bf7-692b008b276b")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "SW-BAT-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 170.815 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2920707-b2dd-4232-83a4-644a1c3d6034")
+		(property "Reference" "D-15"
+			(at 173.101 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 173.101 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 170.815 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 170.815 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.815 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.815 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "430c4732-6544-465d-a58b-bb86ac098282")
+		)
+		(pin "1"
+			(uuid "550c7653-e67e-44aa-bfa1-2ad550730f93")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.295 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f326104d-bd2b-4e5a-83f3-2fd518b68dbe")
+		(property "Reference" "#PWR02"
+			(at 74.295 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.295 36.195 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.295 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.295 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff53f74d-5b4d-4f65-87a8-9a6a291fa5e0")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 102.87 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b01148-bb98-40ec-b60a-5331279fbce7")
+		(property "Reference" "#PWR06"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 100.965 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfe055eb-4af8-4d81-8884-36724c4bd033")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 170.815 66.675 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fce58088-a3d2-4562-aa32-9695944fc18d")
+		(property "Reference" "D-14"
+			(at 173.101 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 173.101 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "anura:SOD123 Reversible"
+			(at 170.815 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 170.815 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.815 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.815 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e53f995-e422-4bd2-9411-c86459dd6a0d")
+		)
+		(pin "1"
+			(uuid "e73ef373-3813-47a9-9f17-cde54be337e8")
+		)
+		(instances
+			(project "anura-split"
+				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
+					(reference "D-14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
