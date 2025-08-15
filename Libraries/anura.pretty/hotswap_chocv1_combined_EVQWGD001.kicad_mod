@@ -54,7 +54,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_rect
 		(start -4.318001 6.2)
 		(end -3.302001 7.216)
@@ -1286,4 +1286,27 @@
 		(uuid "27baead1-56ec-4a40-b973-0fdd5da36749")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3rd-party-models/Choc/Choc_V1.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/Libraries/3rd-party-models/EVQW Rotary Scroll Encoder/Encoder.step"
+		(offset
+			(xyz 7 9.75 -3.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )

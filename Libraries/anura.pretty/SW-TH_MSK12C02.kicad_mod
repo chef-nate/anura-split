@@ -49,7 +49,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_rect
 		(start -4.1 -1.45)
 		(end -3.2 -0.75)
@@ -427,15 +427,15 @@
 		(uuid "ea6a5992-e9a9-41ab-9d2f-a3cd18c66c98")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
+	(model "${KIPRJMOD}/Libraries/3rd-party-models/SW_SPDT/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.step"
 		(offset
-			(xyz 0 -0.75 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -0 -180)
 		)
 	)
 )

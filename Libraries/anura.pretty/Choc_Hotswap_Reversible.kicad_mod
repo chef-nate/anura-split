@@ -706,4 +706,15 @@
 		(uuid "6f8811ce-86cb-4e9b-a2aa-012e319eb423")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3rd-party-models/Choc/Choc_V1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

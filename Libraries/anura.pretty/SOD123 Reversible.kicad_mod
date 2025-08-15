@@ -344,4 +344,15 @@
 		(uuid "bc6af9c6-f4fa-460b-9839-de8ce96b5fec")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3rd-party-models/SOD123/Diode_SOD-123.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

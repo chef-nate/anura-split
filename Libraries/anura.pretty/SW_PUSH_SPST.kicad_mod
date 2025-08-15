@@ -231,4 +231,15 @@
 		(uuid "30a4cec2-b077-4330-886d-2050fbb4effe")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3rd-party-models/SW_Push_SPST/SW_SPST_B3U-1000P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
