@@ -6278,7 +6278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85520824-ce73-4cec-ac7d-36ea364a401f")
-		(property "Reference" "SW-RST-L1"
+		(property "Reference" "SW-RST1"
 			(at 116.205 67.31 0)
 			(effects
 				(font
@@ -6330,7 +6330,7 @@
 		(instances
 			(project "anura-split"
 				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
-					(reference "SW-RST-L1")
+					(reference "SW-RST1")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1e024cc-b6e3-4107-b81e-90a5262e72b2")
-		(property "Reference" "DS-L-1"
+		(property "Reference" "DS-1"
 			(at 121.793 93.218 0)
 			(effects
 				(font
@@ -6913,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "anura:nice!view"
+		(property "Footprint" "anura:nice!view_rev2"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 		(instances
 			(project "anura-split"
 				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
-					(reference "DS-L-1")
+					(reference "DS-1")
 					(unit 1)
 				)
 			)
@@ -8164,7 +8164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d953c610-4c4d-45ad-8c27-4ce097063fe1")
-		(property "Reference" "SW-BAT-1"
+		(property "Reference" "SW-BAT1"
 			(at 120.65 28.702 0)
 			(effects
 				(font
@@ -8219,7 +8219,7 @@
 		(instances
 			(project "anura-split"
 				(path "/2f4d8bfb-914e-4eb2-88ea-03268c6fd720"
-					(reference "SW-BAT-1")
+					(reference "SW-BAT1")
 					(unit 1)
 				)
 			)
